@@ -1,8 +1,13 @@
 /*
-Welcome to Custom CSS!
 
-To learn how this works, see http://wp.me/PEmnE-Bt
+Version: 1.0
+Description: Designed by <a href="https://profiles.wordpress.org/kenshino/">Jon Ang</a>.
+Author: Jon Ang
+Author URI: https://lordjon.com//
+Tags: wordcamp, singapore
+
 */
+
 a {
 	color: #be1e2d;
 }
@@ -56,9 +61,13 @@ a {
 
 @media only screen and (min-width: 767px) {
 
-  body.admin-bar:not(.custom-background-image)::before{
-    top: 10px;
-  }
+	body.admin-bar:not(.custom-background-image)::before{
+	top: 10px;
+	}
+	
+	body:not(.custom-background-image):before, body:not(.custom-background-image):after{
+		height: 0;
+	}
   
 	#masthead {
 		background: url('files/2016/05/banner-image.jpg') no-repeat;
