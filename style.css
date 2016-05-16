@@ -3,7 +3,7 @@
 Version: 1.0
 Description: Designed by <a href="https://profiles.wordpress.org/kenshino/">Jon Ang</a>.
 Author: Jon Ang
-Author URI: https://lordjon.com//
+Author URI: https://lordjon.com/
 Tags: wordcamp, singapore
 
 */
@@ -149,7 +149,7 @@ a {
 	
 	.entry-date::before {
 		clear: both;
-		content: "/\f145";
+
 		display: block;
 		font-family: dashicons;
 		font-size: 3em;
