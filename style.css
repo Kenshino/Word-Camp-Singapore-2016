@@ -20,8 +20,8 @@ a {
   margin: 0 auto;
 }
 
-#site-header-menu {
-	position: fixed;
+.site-header-menu.toggled-on {
+	margin: 2em;
 }
 
 .main-navigation li:hover > a, .main-navigation li.focus > a {
@@ -32,13 +32,12 @@ a {
 	border-bottom: 0;
 }
 
-.main-navigation ul ul li {
-	background-color: #1a1a1a;
-	border: 0 none;
-}
-
 .site-header {
 	padding: 0;
+}
+
+.site-branding{
+	margin: 1em auto;
 }
 
 .site-inner {
@@ -105,6 +104,11 @@ a {
 		width: 100%;
 		z-index: 999;
 		height: 42px;
+	}
+	
+	.main-navigation ul ul li {
+		background-color: #1a1a1a;
+		border: 0 none;
 	}
 	
 	.menu-main-menu-container {
