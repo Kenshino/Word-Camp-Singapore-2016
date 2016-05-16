@@ -1,0 +1,151 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+a {
+	color: #be1e2d;
+}
+
+.site {
+  margin: 0;
+}
+
+.menu-toggle{
+  margin: 0 auto;
+}
+
+#site-header-menu {
+	position: fixed;
+}
+
+.main-navigation li:hover > a, .main-navigation li.focus > a {
+	color: #be1e2d;
+}
+
+.main-navigation ul ul {
+	border-bottom: 0;
+}
+
+.main-navigation ul ul li {
+	background-color: #1a1a1a;
+	border: 0 none;
+}
+
+.site-header {
+	padding: 0;
+}
+
+.site-inner {
+	max-width: 100%;
+}
+
+.header-image img {
+	width: 100%;
+}
+
+#content {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.wcorg-organizer {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+
+  body.admin-bar:not(.custom-background-image)::before{
+    top: 10px;
+  }
+  
+	#masthead {
+		background: url('files/2016/05/banner-image.jpg') no-repeat;
+		height: 400px;
+		margin-bottom: 2em;
+	}
+	
+	.home #masthead {
+		background: url('files/2016/05/hero-image.jpg') no-repeat;
+		height: 760px;
+	}
+	
+	.site-header-main {
+		display: block;
+		height: 100%;
+		position: relative;
+		z-index: 1;
+	}
+	
+	.site-branding {
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 20%;
+		z-index: 2;
+		overflow: visible;
+		text-align: center;
+	}
+	
+	#site-header-menu {
+		background: #1a1a1a none repeat scroll 0 0;
+		color: #fff;
+		margin: 0 auto;
+		position: fixed;
+		width: 100%;
+		z-index: 999;
+	}
+	
+	.menu-main-menu-container {
+		text-align: center;
+	}
+	
+	.main-navigation a {
+		color: #fff;
+	}
+	
+	.primary-menu {
+		display: inline-block;
+	}
+	
+	.site-title {
+		font-size: 3rem;
+		line-height: 1.25;
+	}
+	
+	.site-branding .site-title a {
+		color: #fff;
+	}
+	
+	.site-description {
+		color: #fff;
+		display: block;
+		margin-top: 50px;
+		font-size: 1.8rem;
+	}
+	
+	.home .site-description {
+		margin-top: 350px;
+	}
+	
+	body:not(.search-results) article:not(.type-page) .entry-content {
+		width: 78%;
+	}
+	
+	.entry-date::before {
+		clear: both;
+		content: \\f145;
+		display: block;
+		font-family: dashicons;
+		font-size: 3em;
+		margin: 0 auto 0 -.5em;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.wcorg-organizer {
+		float: left;
+		width: 50%;
+	}
+}
