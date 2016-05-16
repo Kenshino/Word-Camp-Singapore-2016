@@ -104,6 +104,7 @@ a {
 		position: fixed;
 		width: 100%;
 		z-index: 999;
+		height: 42px;
 	}
 	
 	.menu-main-menu-container {
