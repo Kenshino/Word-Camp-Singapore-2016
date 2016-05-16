@@ -149,7 +149,7 @@ a {
 	
 	.entry-date::before {
 		clear: both;
-		content: "\f145";
+		content: "/\f145";
 		display: block;
 		font-family: dashicons;
 		font-size: 3em;
