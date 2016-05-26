@@ -113,13 +113,13 @@ a {
 	}
   
 	#masthead {
-		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat scroll 0 0 / 100% auto;
+		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat scroll 0 0 / cover;
 		height: 400px;
 		margin-bottom: 2em;
 	}
 	
 	.home #masthead {
-		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat scroll 0 0 / 100% auto;
+		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat scroll 0 0 / cover;
 		height: 760px;
 	}
 	
