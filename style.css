@@ -246,6 +246,11 @@ a {
 	}
 	
 	.site-branding .site-title a{
+		height: 350px;
+		width: 350px;
+	}
+	
+	.home .site-branding .site-title a{
 		height: 400px;
 		width: 400px;
 	}
@@ -301,7 +306,8 @@ and (orientation : landscape) {
     		background-size: cover;
     	}
     	
-    	.site-branding .site-title a{
+    	.site-branding .site-title a,
+    	.home .site-branding .site-title a{
 		height: 350px;
 		width: 350px;
 	}
