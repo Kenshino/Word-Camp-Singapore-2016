@@ -21,13 +21,13 @@ a {
 }
 
 #masthead{
-	background: url(https://2016.singapore.wordcamp.org/files/2016/05/hero-image-mobile.jpg) no-repeat;
+	background: url(https://2016.singapore.wordcamp.org/files/2016/05/hero-image-mobile.jpg) no-repeat scroll 0 0 / cover;
 	min-height: 500px;
 	margin-bottom: 1em;
 }
 
 .site-branding .site-title a {
-	background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-mobile.png") no-repeat scroll 0 0 / 100% auto;
+	background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-mobile.png") no-repeat scroll 0 0 / cover;
 	color: transparent;
 	display: block;
 	height: 300px;
@@ -142,8 +142,14 @@ a {
 	
 	.site-branding .site-title a {
 	    background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-desktop.png") no-repeat scroll 0 0 / 100% auto;
-	    height: 500px;
-	    width: 500px;
+	    height: 350px;
+	    width: 350px;
+	}
+	
+	.home site-branding .site-title a{
+		height: 500px;
+		width: 500px
+	}
 	}
 	
 	#site-header-menu {
@@ -255,6 +261,7 @@ and (orientation : portrait) {
     	.site-branding{
     		margin: 0;
     		position: relative;
+    		top: 0;
 	}
 		
 	.site-title{
