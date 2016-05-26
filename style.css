@@ -69,13 +69,13 @@ a {
 	}
   
 	#masthead {
-		background: url('files/2016/05/banner-image.jpg') no-repeat;
+		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat;
 		height: 400px;
 		margin-bottom: 2em;
 	}
 	
 	.home #masthead {
-		background: url('files/2016/05/hero-image.jpg') no-repeat;
+		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat;
 		height: 760px;
 	}
 	
@@ -137,6 +137,7 @@ a {
 	.site-title {
 		height: 500px;
 		width: 500px;
+		margin: 0 auto;
 	}
 	
 	.site-branding .site-title a {
