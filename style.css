@@ -315,8 +315,5 @@ and (orientation : landscape) {
 		height: 350px;
 		width: 350px;
 	}
-	
-    	.site-branding .site-title a{
-		margin-top: 50px;
-	}
+
 }
