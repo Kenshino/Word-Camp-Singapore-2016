@@ -57,7 +57,7 @@ a {
 }
 
 .main-navigation ul{
-	background-color: #fff;
+	background-color: #1a1a1a;
 	border: 1px solid #d1d1d1;
 }
 
@@ -72,6 +72,7 @@ a {
 
 .main-navigation a{
 	padding: 1em 0.5em;
+	color: #fff;
 }
 
 .site-header {
@@ -100,6 +101,12 @@ a {
 .wcorg-organizer {
 	margin-bottom: 2em;
 	text-align: center;
+}
+
+.dropdown-toggle,
+.dropdown-toggle:hover
+.dropdown-toggle:focus{
+	color: #fff;
 }
 
 @media only screen and (min-width: 767px) {
