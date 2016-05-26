@@ -229,15 +229,15 @@ a {
 @media only screen and (min-width: 767px) and (max-width:1440px) {
     	/* Macbook Air and other 16:10 devices up to 1440  */
     	.home #masthead {
-		height: auto;
+		height: 600px;
+		background-size: cover;
 	}
-	
 	.site-branding{
-		margin-top: 100px;
+		margin-top: 0;
 	}
 	
 	.site-branding .site-title a{
-		margin-top: 100px;
+		margin-top: 0;
 	}
 	
 	.site-branding .site-title a{
@@ -270,6 +270,10 @@ and (orientation : portrait) {
 		padding-top: 1em;
 	}
 	
+	.site-branding .site-title a{
+		margin-top: 0;
+	}
+	
 	#site-header-menu{
 		background: none;
 		position: relative;
@@ -285,5 +289,18 @@ and (orientation : portrait) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-    /* iPad */
+	 /* iPad */
+	 
+    	#masthead{
+    		background-size: cover;
+    	}
+    	
+    	.site-branding .site-title a{
+		height: 350px;
+		width: 350px;
+	}
+	
+    	.site-branding .site-title a{
+		margin-top: 50px;
+	}
 }
