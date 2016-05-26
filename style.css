@@ -35,6 +35,7 @@ a {
 
 .menu-toggle{
   margin: 0 auto;
+  color: #fff;
 }
 
 .site-header-menu.toggled-on {
@@ -47,6 +48,12 @@ a {
 
 .main-navigation ul{
 	background-color: #fff;
+	border: 1px solid #d1d1d1;
+}
+
+.main-navigation ul.sub-menu,
+.main-navigation ul.sub-menu li{
+	border: 0 none;
 }
 
 .main-navigation ul ul {
@@ -139,14 +146,17 @@ a {
 		height: 42px;
 	}
 	
-	.main-navigation ul{
+	.main-navigation ul,
+	.main-navigation ul ul li{
 		background-color: #1a1a1a;
 	}
 	
-	.main-navigation ul ul li {
-		background-color: #1a1a1a;
+	.main-navigation ul,
+	.main-navigation ul ul,
+	.main-navigation ul ul li{
 		border: 0 none;
 	}
+	
 	
 	.menu-main-menu-container {
 		text-align: center;
@@ -154,6 +164,7 @@ a {
 	
 	.main-navigation a {
 		color: #fff;
+		padding: 0.65625em 0.875em;
 	}
 	
 	.primary-menu {
