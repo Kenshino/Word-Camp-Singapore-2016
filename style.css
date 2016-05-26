@@ -90,10 +90,21 @@ a {
 		left: 0;
 		position: absolute;
 		right: 0;
-		top: 20%;
+		top: 15%;
 		z-index: 2;
 		overflow: visible;
 		text-align: center;
+	}
+	
+	.site-branding .site-title a {
+	    background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-desktop.png") no-repeat scroll 0 0 / 100% auto;
+	    color: transparent;
+	    display: block;
+	    height: 500px;
+	    overflow: hidden;
+	    text-indent: 100%;
+	    white-space: nowrap;
+	    width: 500px;
 	}
 	
 	#site-header-menu {
@@ -124,8 +135,8 @@ a {
 	}
 	
 	.site-title {
-		font-size: 3rem;
-		line-height: 1.25;
+		height: 500px;
+		width: 500px;
 	}
 	
 	.site-branding .site-title a {
@@ -133,14 +144,7 @@ a {
 	}
 	
 	.site-description {
-		color: #fff;
-		display: block;
-		margin-top: 50px;
-		font-size: 1.8rem;
-	}
-	
-	.home .site-description {
-		margin-top: 20px;
+		display: none;
 	}
 	
 	body:not(.search-results) article:not(.type-page) .entry-content {
