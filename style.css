@@ -113,13 +113,13 @@ a {
 	}
   
 	#masthead {
-		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat;
+		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat scroll 0 0 / 100% auto;
 		height: 400px;
 		margin-bottom: 2em;
 	}
 	
 	.home #masthead {
-		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat;
+		background: url('https://2016.singapore.wordcamp.org/files/2016/05/hero-image-1.jpg') no-repeat scroll 0 0 / 100% auto;
 		height: 760px;
 	}
 	
@@ -214,4 +214,76 @@ a {
 		float: left;
 		width: 50%;
 	}
+}
+
+@media only screen and (min-width: 767px) and (max-width:1367px) {
+    	/* Non HD Laptops */
+	.home #masthead {
+		height: auto;
+	}
+	.site-branding .site-title a{
+		margin-top: 100px;
+	}
+}
+
+@media only screen and (min-width: 767px) and (max-width:1440px) {
+    	/* Macbook Air and other 16:10 devices up to 1440  */
+    	.home #masthead {
+		height: auto;
+	}
+	
+	.site-branding{
+		margin-top: 100px;
+	}
+	
+	.site-branding .site-title a{
+		margin-top: 100px;
+	}
+	
+	.site-branding .site-title a{
+		height: 400px;
+		width: 400px;
+	}
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    	/* iPad */
+    	
+    	.site-branding{
+    		margin: 0;
+    		position: relative;
+	}
+		
+	.site-title{
+		height: auto;
+		width: auto;
+	}
+	.site-header-main{
+		text-align: center;
+	}
+	
+	.site-branding{
+		margin: 0 0 2em;
+		padding-top: 1em;
+	}
+	
+	#site-header-menu{
+		background: none;
+		position: relative;
+	}
+	
+	.dropdown-toggle{
+		color: #fff;
+	}
+	
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* iPad */
 }
