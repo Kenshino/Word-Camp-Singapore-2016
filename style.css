@@ -262,6 +262,10 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
     	/* iPad */
     	
+    	#masthead{
+    		background-size: cover;
+    	}
+    	
     	.site-branding{
     		margin: 0;
     		position: relative;
