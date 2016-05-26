@@ -13,31 +13,36 @@ a {
 }
 
 .site {
-  margin: 0;
+	margin: 0;
 }
 
 #masthead{
-    background: url(https://2016.singapore.wordcamp.org/files/2016/05/hero-image-mobile.jpg) no-repeat;
-    min-height: 500px;
+	background: url(https://2016.singapore.wordcamp.org/files/2016/05/hero-image-mobile.jpg) no-repeat;
+	min-height: 500px;
 }
 
 .site-branding .site-title a {
-	    background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-mobile.png") no-repeat scroll 0 0 / 100% auto;
-	    color: transparent;
-	    display: block;
-	    height: 300px;
-	    overflow: hidden;
-	    text-indent: 100%;
-	    white-space: nowrap;
-	    width: 300px;
-	    margin: 0 auto;
-	}
-
-.menu-toggle{
-  margin: 0 auto;
-  color: #fff;
+	background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-mobile.png") no-repeat scroll 0 0 / 100% auto;
+	color: transparent;
+	display: block;
+	height: 300px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 300px;
+	margin: 0 auto;
 }
 
+.menu-toggle{
+  	margin: 0 auto;
+  	color: #fff;
+}
+
+.menu-toggle:hover, .menu-toggle:focus{
+	background-color: #1a1a1a;
+    	border-color: #1a1a1a;
+    	color: #fff;
+}
 .site-header-menu.toggled-on {
 	margin: 2em;
 }
