@@ -141,15 +141,14 @@ a {
 	}
 	
 	.site-branding .site-title a {
-	    background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-desktop.png") no-repeat scroll 0 0 / 100% auto;
-	    height: 350px;
-	    width: 350px;
+		background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-desktop.png") no-repeat scroll 0 0 / 100% auto;
+		height: 350px;
+		width: 350px;
 	}
 	
-	.home site-branding .site-title a{
+	.home .site-branding .site-title a{
 		height: 500px;
 		width: 500px
-	}
 	}
 	
 	#site-header-menu {
