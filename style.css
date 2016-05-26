@@ -12,6 +12,10 @@ a {
 	color: #be1e2d;
 }
 
+.entry-title a:hover, .entry-title a:focus{
+	color: #be1e2d;
+}
+
 .site {
 	margin: 0;
 }
@@ -19,6 +23,7 @@ a {
 #masthead{
 	background: url(https://2016.singapore.wordcamp.org/files/2016/05/hero-image-mobile.jpg) no-repeat;
 	min-height: 500px;
+	margin-bottom: 1em;
 }
 
 .site-branding .site-title a {
