@@ -142,13 +142,15 @@ a {
 	width: 70%;
 }
 
-.wcorg-sponsor-level-gold .wcorg-sponsor-description img{
+.wcorg-sponsor-level-gold .wcorg-sponsor-description img,{
 	width: 50%;
 }
 
-.wcorg-sponsor-level-silver > div{
-	width: 50%;
+.wcorg-sponsor-level-silver .wcorg-sponsor-description img{
+	width: 40%;
 }
+
+
 
 @media only screen and (min-width: 767px) {
 
@@ -265,6 +267,10 @@ a {
 	
 	.wcorg-organizer {
 		float: left;
+		width: 50%;
+	}
+	
+	.wcorg-sponsor-level-silver > div {
 		width: 50%;
 	}
 }
