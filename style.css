@@ -109,6 +109,10 @@ a {
 	color: #fff;
 }
 
+.entry-content ul, .entry-summary ul, .comment-content ul, .entry-content ol, .entry-summary ol, .comment-content ol{
+	margin-left: 2em;
+}
+
 /* Sponsor Page */
 
 .wcorg-sponsors > div{
@@ -142,7 +146,7 @@ a {
 	width: 50%;
 }
 
-.wcorg-sponsor-level-silver{
+.wcorg-sponsor-level-silver div{
 	width: 50%;
 }
 
