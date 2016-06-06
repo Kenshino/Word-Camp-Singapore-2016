@@ -146,7 +146,7 @@ a {
 	width: 50%;
 }
 
-.wcorg-sponsor-level-silver div{
+.wcorg-sponsor-level-silver > div{
 	width: 50%;
 }
 
