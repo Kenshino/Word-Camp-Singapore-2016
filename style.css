@@ -111,7 +111,7 @@ a {
 
 /* Sponsor Page */
 
-.wcorg-sponsors div{
+.wcorg-sponsors > div{
 	border: 1px solid #be1e2d;
 	margin-bottom: 1.5em;
 }
@@ -122,8 +122,9 @@ a {
 .wcorg-sponsors div > h2{
 	background: #be1e2d none repeat scroll 0 0;
     	color: #fff;
-    	margin: 1em;
+    	margin-bottom: 1em;
     	text-align: center;
+    	text-transform: uppercase;
 }
 
 .wcorg-sponsor-description{
