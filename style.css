@@ -271,6 +271,10 @@ a {
 	}
 	
 	.wcorg-sponsor-level-silver > div {
+		width: 50%;
+	}
+	
+	.wcorg-sponsor-level-silver .wcorg-sponsor-description img{
 		width: 70%;
 	}
 }
