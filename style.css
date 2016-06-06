@@ -109,6 +109,34 @@ a {
 	color: #fff;
 }
 
+/* Sponsor Page */
+
+.wcorg-sponsors div{
+	border: 1px solid #be1e2d;
+	margin-bottom: 1.5em;
+}
+.wcorg-sponsors div div > h3{
+	display: none;
+}
+
+.wcorg-sponsors div > h2{
+	background: #be1e2d none repeat scroll 0 0;
+    	color: #fff;
+    	margin: 1em;
+    	text-align: center;
+}
+
+.wcorg-sponsor-description{
+	padding: 1em;
+	font-size: 0.9em;
+}
+
+.wcorg-sponsor-description .attachment-post-thumbnail{
+	float: left;
+    	margin: 1em;
+    	width: 50%;
+}
+
 @media only screen and (min-width: 767px) {
 
 	body.admin-bar:not(.custom-background-image)::before{
