@@ -114,6 +114,8 @@ a {
 .wcorg-sponsors > div{
 	border: 1px solid #be1e2d;
 	margin-bottom: 1.5em;
+	overflow: auto;
+	text-align: center;
 }
 .wcorg-sponsors div div > h3{
 	display: none;
@@ -133,9 +135,15 @@ a {
 }
 
 .wcorg-sponsor-description .attachment-post-thumbnail{
-	float: left;
-    	margin: 1em;
-    	width: 50%;
+	width: 70%;
+}
+
+.wcorg-sponsor-level-gold .wcorg-sponsor-description img{
+	width: 50%;
+}
+
+.wcorg-sponsor-level-silver{
+	width: 50%;
 }
 
 @media only screen and (min-width: 767px) {
