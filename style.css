@@ -1,6 +1,6 @@
 /*
 
-Version: 1.1
+Version: 1.2
 Description: Designed by <a href="https://profiles.wordpress.org/kenshino/">Jon Ang</a>.
 Author: Jon Ang
 Author URI: https://lordjon.com/
@@ -146,11 +146,6 @@ a {
 	width: 50%;
 }
 
-.wcorg-sponsor-level-silver .wcorg-sponsor-description img{
-	width: 40%;
-}
-
-
 
 @media only screen and (min-width: 767px) {
 
@@ -272,10 +267,12 @@ a {
 	
 	.wcorg-sponsor-level-silver > div {
 		width: 50%;
+		float: left;
 	}
 	
-	.wcorg-sponsor-level-silver .wcorg-sponsor-description img{
-		width: 70%;
+	.wcorg-sponsor-level-bronze > div {
+		width: 33.33%;
+		float: left;
 	}
 }
 
