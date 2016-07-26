@@ -26,6 +26,7 @@ select,
 textarea,
 .required {
 	font-family: "Source Sans Pro", Merriweather, Georgia, serif;
+	line-height: 1.25;
 }
 
 button,
@@ -76,9 +77,12 @@ input[type="submit"][disabled]:focus,
 	font-family: "Open Sans", sans-serif;
 }
 
-
 .form-allowed-tags code {
 	font-family: Inconsolata, monospace;
+}
+
+p {
+	margin: 0 0 1.25em;
 }
 
 a {
