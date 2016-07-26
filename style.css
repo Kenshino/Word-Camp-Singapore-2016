@@ -159,6 +159,8 @@ a {
 .wcorg-speaker-description > h3{
 	float: left;
 	width: 80%;
+	clear: right;
+	margin-top: 2em;
 }
 
 .wcorg-speaker-description p{
