@@ -221,6 +221,15 @@ a {
 
 /* Speakers */
 
+div.wcorg-speaker {
+	padding: 0.7rem 0;
+}
+
+.wcorg-speaker > h2{
+	font-family: "Oxygen", Montserrat, "Helvetica Neue", sans-serif;
+	margin-bottom: 0;
+}
+
 .wcorg-speaker-description > img{
 	max-width: 100px;
 	width: 100%;
@@ -233,7 +242,9 @@ a {
 	float: left;
 	width: 80%;
 	clear: right;
-	margin-top: 2em;
+	margin-top: 3.3rem;
+	font-weight: normal;
+	font-size: 1.1rem;
 }
 
 .wcorg-speaker-description p{
