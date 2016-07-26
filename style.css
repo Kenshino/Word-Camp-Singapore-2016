@@ -146,6 +146,25 @@ a {
 	width: 50%;
 }
 
+/* Speakers */
+
+.wcorg-speaker-description > img{
+	max-width: 100px;
+	width: 20%;
+	margin: 1.5em;
+	box-sizing: border-box;
+	float: left;
+}
+
+.wcorg-speaker-description > h3{
+	float: left;
+	width: 80%;
+}
+
+.wcorg-speaker-description p{
+	clear: both;
+}
+
 
 @media only screen and (min-width: 767px) {
 
