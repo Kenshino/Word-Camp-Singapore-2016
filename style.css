@@ -150,7 +150,7 @@ a {
 
 .wcorg-speaker-description > img{
 	max-width: 100px;
-	width: 20%;
+	width: 100%;
 	margin: 1.5em;
 	box-sizing: border-box;
 	float: left;
@@ -294,6 +294,10 @@ a {
 	.wcorg-sponsor-level-bronze > div {
 		width: 33.33%;
 		float: left;
+	}
+	
+	.wcorg-speaker-description > img{
+		width: 20%;
 	}
 }
 
