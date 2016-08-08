@@ -98,13 +98,13 @@ a {
 }
 
 #masthead{
-	background: url(https://2016.singapore.wordcamp.org/files/2016/05/hero-image-mobile.jpg) no-repeat scroll 0 0 / cover;
+	background: url("https://2016.singapore.wordcamp.org/files/2016/05/hero-image-mobile.jpg") no-repeat scroll 0 0 / cover;
 	min-height: 500px;
 	margin-bottom: 1em;
 }
 
 .site-branding .site-title a {
-	background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-mobile.png") no-repeat scroll 0 0 / cover;
+	background: url("https://2016.singapore.wordcamp.org/files/2016/08/WordCamp-Singapore-logo-mobile.png") no-repeat scroll 0 0 / cover;
 	color: transparent;
 	display: block;
 	height: 300px;
@@ -350,7 +350,7 @@ td.wcpt-session-type-session {
 	}
 	
 	.site-branding .site-title a {
-		background: url("https://2016.singapore.wordcamp.org/files/2016/05/info-for-desktop.png") no-repeat scroll 0 0 / 100% auto;
+		background: url("https://2016.singapore.wordcamp.org/files/2016/08/WordCamp-Singapore-logo-deskstop.png") no-repeat scroll 0 0 / 100% auto;
 		height: 350px;
 		width: 350px;
 	}
