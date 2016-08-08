@@ -104,7 +104,7 @@ a {
 }
 
 .site-branding .site-title a {
-	background: url("https://2016.singapore.wordcamp.org/files/2016/08/WordCamp-Singapore-logo-mobile.png") no-repeat scroll 0 0 / auto;
+	background: url("https://2016.singapore.wordcamp.org/files/2016/08/WordCamp-Singapore-logo-mobile.png") no-repeat scroll center center / auto;
 	color: transparent;
 	display: block;
 	height: 300px;
@@ -350,7 +350,7 @@ td.wcpt-session-type-session {
 	}
 	
 	.site-branding .site-title a {
-		background: url("https://2016.singapore.wordcamp.org/files/2016/08/WordCamp-Singapore-logo-deskstop.png") no-repeat scroll 0 0 / auto;
+		background: url("https://2016.singapore.wordcamp.org/files/2016/08/WordCamp-Singapore-logo-deskstop.png") no-repeat scroll center center / auto;
 		height: 350px;
 		width: 350px;
 	}
