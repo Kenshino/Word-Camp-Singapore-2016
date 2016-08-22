@@ -311,6 +311,37 @@ td.wcpt-session-type-session {
 	display: block;
 }
 
+#tix-attendees li {
+    height: 150px;
+    text-align: center;
+}
+
+#tix-attendees .tix-field {
+    display: block;
+    width: 100%;
+}
+
+#tix-attendees .tix-attendee-name {
+    margin-bottom: 0;
+    clear: both;
+    margin-top: 10px;
+}
+
+#tix-attendees .avatar {
+    float: none;
+    width: 100px;
+    height: 100px;
+    clear: both;
+    text-align: center;
+}
+
+.tix-field.tix-twitter-handle::before {
+    content: "\f301";
+    font-family: dashicons;
+    position: relative;
+    top: 2px;
+}
+
 @media only screen and (min-width: 767px) {
 
 	body.admin-bar:not(.custom-background-image)::before{
