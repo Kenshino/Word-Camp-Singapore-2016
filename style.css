@@ -311,6 +311,10 @@ td.wcpt-session-type-session {
 	display: block;
 }
 
+#tix-attendees .tix-columns-3 li{
+	width: 48%;
+}
+
 #tix-attendees li {
     height: 150px;
     text-align: center;
@@ -484,6 +488,10 @@ td.wcpt-session-type-session {
 	
 	.wcorg-speaker-description > img{
 		width: 20%;
+	}
+	
+	#tix-attendees .tix-columns-3 li {
+    		width: 33.333%;
 	}
 }
 
