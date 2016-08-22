@@ -343,6 +343,16 @@ td.wcpt-session-type-session {
     top: 2px;
 }
 
+#tix-attendees li::before {
+    background: url('https://2016.singapore.wordcamp.org/files/2016/08/Motif.png') no-repeat;
+    content: '';
+    width: 114px;
+    height: 108px;
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -5px;
+}
+
 @media only screen and (min-width: 767px) {
 
 	body.admin-bar:not(.custom-background-image)::before{
