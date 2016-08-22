@@ -334,6 +334,7 @@ td.wcpt-session-type-session {
     height: 100px;
     clear: both;
     text-align: center;
+    position: relative;
 }
 
 .tix-field.tix-twitter-handle::before {
