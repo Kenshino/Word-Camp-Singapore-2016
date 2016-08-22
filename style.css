@@ -325,6 +325,7 @@ td.wcpt-session-type-session {
     margin-bottom: 0;
     clear: both;
     margin-top: 10px;
+    margin-left: 0;
 }
 
 #tix-attendees .avatar {
