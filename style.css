@@ -485,6 +485,7 @@ td.wcpt-session-type-session {
 	.wcorg-sponsor-level-bronze > div {
 		width: 33.33%;
 		float: left;
+		min-height: 500px;
 	}
 	
 	.wcorg-speaker-description > img{
