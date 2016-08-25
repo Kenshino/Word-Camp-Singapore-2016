@@ -363,6 +363,10 @@ td.wcpt-session-type-session {
 	padding: 1em;
 }
 
+.wcpt-schedule td.wcpt-time{
+	padding: 0.4em;
+}
+
 @media only screen and (min-width: 767px) {
 
 	body.admin-bar:not(.custom-background-image)::before{
