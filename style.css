@@ -359,6 +359,10 @@ td.wcpt-session-type-session {
     margin-top: -5px;
 }
 
+.wcpt-schedule td{
+	padding: 1em;
+}
+
 @media only screen and (min-width: 767px) {
 
 	body.admin-bar:not(.custom-background-image)::before{
