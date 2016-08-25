@@ -365,6 +365,7 @@ td.wcpt-session-type-session {
 
 .wcpt-schedule td.wcpt-time{
 	padding: 0.4em;
+	text-align: center;
 }
 
 @media only screen and (min-width: 767px) {
