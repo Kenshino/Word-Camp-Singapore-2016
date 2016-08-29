@@ -491,7 +491,8 @@ td.wcpt-session-type-session {
 		float: left;
 	}
 	
-	.wcorg-sponsor-level-bronze > div {
+	.wcorg-sponsor-level-bronze > div,
+	.wcorg-sponsor-level-in-kind > div{
 		width: 33.33%;
 		float: left;
 		min-height: 500px;
